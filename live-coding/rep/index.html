@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link href="style.css" ref="stylesheet"/>
+  <script src="app-classes.js" defer></script>
+  <script src="validation.js"></script>
+</head>
+<body>
+
+  <form class="club-form">
+    <h2>Cool club</h2>
+    <select name="title" class="title-field">
+      <option disabled selected hidden>Title</option>
+      <option>Herr</option>
+      <option>Fru</option>
+      <option>Mr.</option>
+      <option>Mrs.</option>
+      <option>Other</option>
+    </select>
+
+    <div>
+      <input class="fName-field" type="text" placeholder="First name" required/>
+      <input class="lName-field" type="text" placeholder="Last name" required/>
+    </div>
+
+
+    <div>
+      <input class="email-field" type="text" placeholder="E-mail" required/>
+      <input class="phone-field" type="text" placeholder="Phone" required/>
+    </div>
+
+
+    <div>
+      <input class="password-field" type="password" placeholder="Password" required/>
+      <input class="repassword-field" type="password" placeholder="Repeat password" required/>
+    </div>
+
+    <button>Sign up!</button>
+  </form>
+  
+</body>
+</html>
